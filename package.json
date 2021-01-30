@@ -1,5 +1,5 @@
 {
-  "name": "Refrigeracao_Marques",
+  "name": "refrigeracao_marques",
   "version": "1.0.0",
   "description": "Assistência técnica. Conserto em lavadora, lava e seca, micro-ondas, refrigeradores, ar condicionado, adega e outros. Instalação de ar condicionado. Higienização de lava e seca.",
   "main": "index.js",
@@ -24,10 +24,7 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
+  
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
