@@ -1,0 +1,34 @@
+{
+  "name": "Refrigeracao_Marques",
+  "version": "1.0.0",
+  "description": "Assistência técnica. Conserto em lavadora, lava e seca, micro-ondas, refrigeradores, ar condicionado, adega e outros. Instalação de ar condicionado. Higienização de lava e seca.",
+  "main": "index.js",
+  "repository": "https://github.com/AlisonMarques/Refrigeracao_Marques.git",
+  "author": "AlisonMarques <alison-marques@outlook.com.br>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
