@@ -8,7 +8,7 @@ export default function Header() {
   return (
     /* Header */
     <header className="header trans_400">
-      <div className="header_content">
+      <div className="header_content trans_400">
         {/* Logo */}
         <div className="logo">
           <a href="/">
