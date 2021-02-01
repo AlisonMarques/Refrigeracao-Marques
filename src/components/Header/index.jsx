@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { Link } from 'gatsby'
-
 import logo from '../../assets/logo.png'
 
 export default function Header() {
@@ -37,24 +35,24 @@ export default function Header() {
         <div className="header_extra">
           {/* Appointment Button */}
           <div className="button button_1 header_button">
-            <Link
-              to="https://api.whatsapp.com/send?phone=5562993471055"
+            <a
+              href="https://api.whatsapp.com/send?phone=5562993471055"
               target="_blank"
             >
               (62) 9 9347-1055
-            </Link>
+            </a>
           </div>
 
           {/* Header Social */}
           <div className="social header_social">
             <ul className="d-flex">
               <li>
-                <Link
-                  to="https://api.whatsapp.com/send?phone=5562993471055"
+                <a
+                  href="https://api.whatsapp.com/send?phone=5562993471055"
                   target="_blank"
                 >
                   <i className="fa fa-whatsapp" aria-hidden="true"></i>
-                </Link>
+                </a>
               </li>
 
               <li>
@@ -66,12 +64,12 @@ export default function Header() {
               </li>
 
               <li>
-                <Link
+                <a
                   href="https://www.facebook.com/alison.marquesdejesus"
                   target="_blank"
                 >
                   <i className="fa fa-facebook" aria-hidden="true"></i>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
